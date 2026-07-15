@@ -65,7 +65,7 @@ function updateCart() {
         `;
     });
 
-    cartDiv.innerHTML += <h3>Total : ${total} TND</h3>;
+    cartDiv.innerHTML += `<h3>Total : ${total} TND</h3>`;
 }
 
 function removeItem(i) {
