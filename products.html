@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ang">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits _ Timlilit</title>
+    <link rel="stylesheet" href="app.css">
+    <script defer src="products-cart.js"></script>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" class="logo">
+    <nav>
+        <ul>
+            <li><a href="app.html">Accueil</a></li>
+            <li><a href="register.html">Inscription</a></li>
+            <li><a href="products.html">Produits</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h2 class="page-title">Catalogue Timlilit</h2>
+
+<div class="product">
+    <img src="tapis.jpg">
+    <h3>Tapis Amazigh</h3>
+    <p>Fait main – 100% laine</p>
+    
+    <!-- JUSTE CE PRIX TOTAL QUI CHANGE -->
+    <div class="product-total-price">
+        <span class="price-total">150</span> TND
+    </div>
+    
+    <input type="number" min="1" max="99" value="1" class="qty">
+    <button class="add">Ajouter</button>
+</div>
+
+<div class="product">
+    <img src="braclet.jpg">
+    <h3>Bracelet Argent</h3>
+    <p>Artisanat traditionnel</p>
+    
+    <!-- JUSTE CE PRIX TOTAL QUI CHANGE -->
+    <div class="product-total-price">
+        <span class="price-total">50</span> TND
+    </div>
+    
+    <input type="number" min="1" max="99" value="1" class="qty">
+    <button class="add">Ajouter</button>
+</div>
+
+<div class="product">
+    <img src="tohfa.jpg">
+    <h3>Poterie Kabyle</h3>
+    <p>Pièce décorative</p>
+    
+    <!-- JUSTE CE PRIX TOTAL QUI CHANGE -->
+    <div class="product-total-price">
+        <span class="price-total">80</span> TND
+    </div>
+    
+    <input type="number" min="1" max="99" value="1" class="qty">
+    <button class="add">Ajouter</button>
+</div>
+
+<div class="product">
+    <img src="colier.jpg">
+    <h3>Collier Amazigh</h3>
+    <p>Perles traditionnelles</p>
+    
+    <!-- JUSTE CE PRIX TOTAL QUI CHANGE -->
+    <div class="product-total-price">
+        <span class="price-total">60</span> TND
+    </div>
+    
+    <input type="number" min="1" max="99" value="1" class="qty">
+    <button class="add">Ajouter</button>
+</div>
+
+<h2>Récapitulatif de commande</h2>
+<div id="cart"></div>
+
+<div style=" margin: 20px 0;">
+    <button id="validateOrder">Valider la commande</button>
+</div>
+
+</body>
+</html>
